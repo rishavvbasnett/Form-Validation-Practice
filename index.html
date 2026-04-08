@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JS Practice</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="legend">The Odin Project: Form Validation Practice</div>
+    <div class="content">
+      <form novalidate>
+        <input type="email" class="email" placeholder="Email*" required/>
+        <input type="text" class="country" placeholder="Country*" required/>
+        <input type="text" class="postalCode" placeholder="Postal Code*" required/>
+        <input type="text" class="password" placeholder="Password*" required/>
+        <input
+          type="text"
+          class="confirmPassword"
+          placeholder="Confirm Password*"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="display"></div>
+    </div>
+  </body>
+</html>
