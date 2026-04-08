@@ -33,6 +33,10 @@ input:invalid {
   outline: 2px solid red;
 }
 
+/* the Valid state */
+input:valid {
+  outline: 2px solid rgb(71, 152, 4);
+}
 button {
   padding: 0.8rem 1rem;
   border: none;
@@ -60,16 +64,17 @@ button:hover {
   outline: 1px solid rgb(210, 204, 204);
   min-height: 230px;
   border-radius: 8px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: rgb(88, 2, 2);
   text-align: center;
   padding: 1rem;
+  letter-spacing: 1.2px;
 }
 
 .legend {
   padding: 1rem 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: rgb(88, 2, 2);
   text-align: center;
   letter-spacing: 1.3px;
